@@ -83,3 +83,17 @@ defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user 
 defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+/*
+|--------------------------------------------------------------------------
+| MailGun API Settings
+|--------------------------------------------------------------------------
+|All constants are related to the MailGun API that is used for sending
+|mails.
+|
+|
+*/
+defined('MAILGUN_USERNAME') OR define('MAILGUN_USERNAME', 'postmaster@sandbox48dd0e75d3c84d96a4e92fe5e628f159.mailgun.org'); // Mailgun UserName
+defined('MAILGUN_PASSWORD') OR define('MAILGUN_PASSWORD','13623286a824da327705275f679ceef3');
+defined('MAILGUN_HOST') OR define('MAILGUN_HOST','smtp.mailgun.org');
+defined('MAILGUN_FROMADDRESS') OR define('MAILGUN_FROMADDRESS','developer@bvmengineeringcollege.com');
+defined('MAILGUN_FROMNAME') OR define('MAILGUN_FROMNAME','Kunal Thanki');
