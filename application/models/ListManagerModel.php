@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Model ListManagerModel will be used to create new list
+ * Model ListManagerModel will be used to manage different lists
  */
 class ListManagerModel extends CI_Model {
 

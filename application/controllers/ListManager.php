@@ -21,7 +21,7 @@ class ListManager extends REST_Controller {
     /**
      * This method is called when post request is sent on /listmanager/createlist
      * It calls the model ListManagerModel
-     * It takes in 3 post parameters namely listname,description
+     * It takes in 2 post parameters namely listname,description
      */
     public function createList_post()
     {
