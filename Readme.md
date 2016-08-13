@@ -25,7 +25,6 @@
         ##Management of Members of List
             This contoller calls the model ListMemberManagerModel
         *   GET Request- The endpoint for getting all members of a list is listmembermanager/getmembers( params-listname)
-        *   POST Request- The endpoint for adding a new member to a particular list is listmembermanager/addmember( params-listname,useraddress,username,  
-        description,age)
+        *   POST Request- The endpoint for adding a new member to a particular list is listmembermanager/addmember  (params-listname,useraddress,username,description,age)
         *   PUT Request- The endpoint for editing a particular member of a particular list is listmembermanager/editmember(params-listname,useraddress,subscribe,username,description,age)
         *   DELETE Request- The endpoint for deleting a particular member of a particular list is listmembermanager/deletemember( params-listname,useraddress)
