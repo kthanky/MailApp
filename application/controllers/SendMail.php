@@ -24,7 +24,7 @@ class SendMail extends REST_Controller {
      */
     public function sending_post()
     {
-        $emailto=$this->post('emailto');
+        $emailto=$this->post('emailto').MAILGUN_DOMAIN;
         $subject=$this->post('subject');
         $mailbody=$this->post('mailbody');
         $result=$this->SendingMailModel->sendUsingSMTP($emailto,$subject,$mailbody);

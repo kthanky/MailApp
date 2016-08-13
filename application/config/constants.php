@@ -97,3 +97,6 @@ defined('MAILGUN_PASSWORD') OR define('MAILGUN_PASSWORD','13623286a824da32770527
 defined('MAILGUN_HOST') OR define('MAILGUN_HOST','smtp.mailgun.org');
 defined('MAILGUN_FROMADDRESS') OR define('MAILGUN_FROMADDRESS','developer@bvmengineeringcollege.com');
 defined('MAILGUN_FROMNAME') OR define('MAILGUN_FROMNAME','Kunal Thanki');
+defined('MAILGUN_APIKEY') OR define('MAILGUN_APIKEY','key-1ee5540a1dfdb1fc3fd3b449f437c5dc');
+defined('MAILGUN_DOMAIN') OR define('MAILGUN_DOMAIN','@sandbox48dd0e75d3c84d96a4e92fe5e628f159.mailgun.org');
+
