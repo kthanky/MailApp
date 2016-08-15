@@ -1,6 +1,6 @@
-#Mailing List Management App
-*   This app deals with the management of mailing lists on Mailgun API
-*   The Backend is done using Codeigniter Framework PHP.
+#Mailing List Management ReST API
+*   This ReST API deals with providing endpoints for Mailgun API
+*   The Backend ReST API is done using Codeigniter Framework PHP.
 *   The Documentation for [Mailgun API](https://documentation.mailgun.com)
 *   The Documentation for [Codeigniter Framework](http://www.codeigniter.com/user_guide/)
 

@@ -10,7 +10,6 @@ class ListManagerModel extends CI_Model {
         // Call the Model constructor
         parent::__construct();
     }
-
     /**
      * This function creates a mailing List Using MailGun API
      * @param $listname

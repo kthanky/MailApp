@@ -25,7 +25,6 @@ class ListManager extends REST_Controller {
      */
     public function createList_post()
     {
-        //$data = json_decode(file_get_contents("php://input"));
         $listname=$this->post('listname').MAILGUN_DOMAIN;
         $desc=$this->post('description');
         $result=$this->ListManagerModel->createUsingAPI($listname,$desc);

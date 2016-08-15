@@ -60,12 +60,13 @@ class ListMemberManager extends REST_Controller {
      */
     public function editMember_put()
     {
-        $listAddress=$this->put('listname').MAILGUN_DOMAIN;
-        $useraddress=$this->put('useraddress');
-        $username=$this->put('username');
-        $description=$this->put('desc');
-        $age=$this->put('age');
-        $subscribe=$this->put('subscribe');
+        $data = json_decode(file_get_contents("php://input"));
+        $listAddress=$data->listname.MAILGUN_DOMAIN;
+        $useraddress=$data->useraddress;
+        $username=$data->username;
+        $description=$data->desc;
+        $age=$data->age;
+        $subscribe=$data->subscribe;
         $result=$this->ListMemberManagerModel->editingMember($listAddress,$useraddress,$subscribe,$username,$description,$age);
         $this->response($result);
     }
