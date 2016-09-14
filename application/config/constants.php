@@ -92,11 +92,11 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 |
 |
 */
-defined('MAILGUN_USERNAME') OR define('MAILGUN_USERNAME', 'postmaster@sandbox48dd0e75d3c84d96a4e92fe5e628f159.mailgun.org'); // Mailgun UserName
-defined('MAILGUN_PASSWORD') OR define('MAILGUN_PASSWORD','13623286a824da327705275f679ceef3');
-defined('MAILGUN_HOST') OR define('MAILGUN_HOST','smtp.mailgun.org');
-defined('MAILGUN_FROMADDRESS') OR define('MAILGUN_FROMADDRESS','developer@bvmengineeringcollege.com');
-defined('MAILGUN_FROMNAME') OR define('MAILGUN_FROMNAME','Kunal Thanki');
-defined('MAILGUN_APIKEY') OR define('MAILGUN_APIKEY','key-1ee5540a1dfdb1fc3fd3b449f437c5dc');
-defined('MAILGUN_DOMAIN') OR define('MAILGUN_DOMAIN','@sandbox48dd0e75d3c84d96a4e92fe5e628f159.mailgun.org');
+defined('MAILGUN_USERNAME') OR define('MAILGUN_USERNAME', ''); // Mailgun UserName
+defined('MAILGUN_PASSWORD') OR define('MAILGUN_PASSWORD','');
+defined('MAILGUN_HOST') OR define('MAILGUN_HOST','');
+defined('MAILGUN_FROMADDRESS') OR define('MAILGUN_FROMADDRESS','');
+defined('MAILGUN_FROMNAME') OR define('MAILGUN_FROMNAME','');
+defined('MAILGUN_APIKEY') OR define('MAILGUN_APIKEY','');
+defined('MAILGUN_DOMAIN') OR define('MAILGUN_DOMAIN','');
 
