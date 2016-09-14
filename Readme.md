@@ -3,7 +3,7 @@
 *   The Backend ReST API is done using Codeigniter Framework PHP.
 *   The Documentation for [Mailgun API](https://documentation.mailgun.com)
 *   The Documentation for [Codeigniter Framework](http://www.codeigniter.com/user_guide/)
-
+*   Those who wish you to use the API will need to add there MailGun API Details in Config/Constants.php file
 
     ##How To Use It
     #####There are 3 main functions namely
